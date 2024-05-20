@@ -1,0 +1,70 @@
+body{
+    background-color: gainsboro;
+}
+
+header{
+    height: 100px;
+    background-color: #FFCE00;
+}
+
+main{
+    /*100vh ocupa el 100% del alto del navegador, entonces yo a eso le resto las alturas previamente sumadas del header y footer */
+    min-height: calc(100vh -  150px);
+    border-left: 2px solid floralwhite;
+    border-right: 2px solid floralwhite;
+    border-top: 2px solid floralwhite;
+}
+
+
+footer{
+    height: 50px;
+    background-color: #262228;
+}
+
+.centrar{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.articulo{
+    height: 400px;
+    width: 100%;
+}
+
+article{
+    margin: 2% 0;
+}
+
+#navbar{
+    height: 50px;
+    text-align: left;
+}
+
+#logo{
+    height: 50px;
+    text-align: center;
+}
+
+.carousel{
+    padding: 1%;
+}
+
+.carousel-item{
+    height: 375px;
+}
+
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+}
+
+.contenedor_imagen{    
+    background-color: burlywood;
+    border: 2px solid;
+   /* width: 30%;*/}
+
+    /*
+.galeria .row{
+    justify-content: space-around;
+}*/
